@@ -1,0 +1,31 @@
+/* Kleine Kästchen */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6.5px 10px; /* horizontale 6.5px, vertikal 10px */
+  background: transparent;
+  border: 1px solid #bcbcbc;
+  font-family: "Netflix Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  color: #bcbcbc;
+  text-align: center;
+  white-space: nowrap;
+  min-width: 50px;
+  min-height: 30px; /* kleine Höhe */
+  border-radius: 4px;
+}
+
+/* Große Box um alle kleinen Kästchen */
+.ratingsBox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+  border: 2px solid #bcbcbc; /* deutlich sichtbar */
+  background: #f0f0f0;        /* leichtes Grau */
+  max-width: 800px;           /* große Box sichtbar */
+  margin-top: 20px;
+}
